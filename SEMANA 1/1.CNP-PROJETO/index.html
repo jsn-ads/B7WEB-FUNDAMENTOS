@@ -7,17 +7,20 @@
 </head>
 <body>
     <!-- tags -->
-    <p></p>                                     <!--Paragrafo-->
-    <br/>                                       <!--Quebra de Linha-->
-    <hr/>                                       <!--Linha Horizontal-->
+    
+    <h3>Tags</h3>
+    
+    <p>Paragrafo</p>                                     <!--Paragrafo-->
+    <br/>                                                <!--Quebra de Linha-->
+    <hr/>                                                <!--Linha Horizontal-->
     <ol>
-        <li></li>                               <!--Lista Ordenada-->
+        <li>Lista Ordenada</li>                          <!--Lista Ordenada-->
     </ol>
     <ul>
-        <li></li>                               <!--Lista não Ordenada-->
+        <li>Lista não ordenada</li>                      <!--Lista não Ordenada-->
     </ul>
-    <a href="login.html">Logout</a>             <!--Ancora-->
-    <img src="img/icon.ico" alt="Chelsea"/>     <!--Imagens-->    
+    <a href="login.html">Ancora</a>                      <!--Ancora-->
+    <img src="img/icon.ico" alt="Imagem"/>               <!--Imagens-->    
    
     <!--Tabela-->    
     
@@ -35,5 +38,33 @@
             <td>Brasil</td>
         </tr>
     </table>
+
+    <!--Formulario-->
+
+    <h3>Formulario</h3>
+    
+    <form action="" method="post">
+        <label for="name">Digite seu nome</label>
+        <br>
+        <input id="name" type="text" name="name" placeholder="">
+        <hr>
+        <label for="password">Digite sua senha</label>
+        <br>
+        <input id="password" type="password" name="password" placeholder="">
+        <hr>
+        <label for="msg">Informe</label>
+        <br>
+        <textarea name="msg" id="msg" rows="4"></textarea>
+        <hr>
+        <label for="complaints">Tipo de Reclamação</label>
+        <br>
+        <select name="complaints" id="complaints">
+            <option value="">Select</option>
+            <option value="tipo1">Tipo 1</option>
+            <option value="tipo2">Tipo 2</option>
+        </select>
+        <hr>
+        <button>Enviar</button>
+    </form>
 </body>
 </html> 
