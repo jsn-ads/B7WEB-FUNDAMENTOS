@@ -1,13 +1,13 @@
 /* css.html */
 
-h3 {
+.css-h3 {
     color:blueviolet
 }
 
-a{
+.css-a{
     color: blue;
 }
 
-li {
+.css-li {
     color: red;
 }
