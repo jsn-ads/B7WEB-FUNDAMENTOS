@@ -1,13 +1,32 @@
 /* css.html */
 
+
+section{
+    background-color: #ece8e8;
+    width: 200px;
+    height: 200px;
+    border: 4px solid #df2222;
+    margin: 5px 0px;
+}
+
+section .css-h3{
+    font-size: 25px;
+    text-align: center;
+}
+
+section ul li{
+    list-style-type: none;
+}
+
 .css-h3 {
-    color:blueviolet
+    color: #7011e3;
+    background-color: #e8e8e8;
 }
 
 .css-a{
-    color: blue;
+    color: #1111e6;
 }
 
 .css-li {
-    color: red;
+    color: #8f1414;
 }
