@@ -28,3 +28,47 @@ section{
 #sobre img{
     width: 300px;
 }
+
+li{
+    margin-bottom: 5px;
+}
+
+td {
+    padding: 8px;
+    border: 1px solid #DDDDDDDD;
+}
+
+thead{
+    background-color: #F4F4F4;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select, textarea{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #DDDDDDDD;
+}
+
+button{
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #333333;
+    color: #FFFFFFFF;
+    border: 0;
+}
+
+footer{
+    text-align: center;
+    background-color: #333333;
+    color: #FFFFFFFF;
+    padding: 10px;
+}
+
+footer nav a{
+    color: #FFFFFFFF;
+}
