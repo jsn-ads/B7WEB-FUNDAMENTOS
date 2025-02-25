@@ -1,0 +1,18 @@
+.balao{
+    background-color: #0000FF;
+    display: inline-block;
+    padding: 20px;
+    color: blanchedalmond;
+    border-radius: 20px;
+}
+
+.balao::after{
+    content: '';
+    display: block;
+    position: absolute;
+    margin-top: 20px;
+
+    border:20px solid;
+    /* 4 triangulos  */
+    border-color: #0000FF #0000FF transparent transparent;
+}

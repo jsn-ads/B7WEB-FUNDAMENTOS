@@ -1,0 +1,17 @@
+body{
+    /* caminho da imagem  */
+    background-image: url('work.jpeg');
+    /* preencher a tela */
+    background-size: cover;
+    /* centralizar imagem */
+    background-position: center;
+}
+
+div{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}

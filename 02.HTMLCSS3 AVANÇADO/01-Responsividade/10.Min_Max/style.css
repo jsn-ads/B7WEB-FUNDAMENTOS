@@ -1,0 +1,8 @@
+img
+{
+    /* DEFINE O MAIOR VALOR COMO PADRAO A MEDIDA QUE MUDA RESOLUÇÃO */
+    width: max(50%, 300px);
+
+    /* DEFINE O MENOR VALOR COMO PADRAO A MEDIDA QUE MUDA RESOLUÇÃO */
+    /* width: min(50%, 300px); */
+}

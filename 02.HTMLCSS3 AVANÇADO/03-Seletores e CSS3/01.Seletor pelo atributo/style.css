@@ -1,0 +1,35 @@
+input, a{
+    display: block;
+}
+[required]
+{
+    background-color: red;
+}
+
+input[name="usuario"]
+{
+    color: #aaa;
+}
+
+input[type=password]
+{
+    background-color: #aaa;
+}
+
+/* procura em todo link a palavra chave */
+a[href*="you"]
+{
+    background-color: blueviolet;
+}
+
+/* procura apenas a primeira do link */
+a[href^="http:"]
+{
+    background-color: aqua;
+}
+
+/* procura apenas a ultima palavra */
+a[href$="login"]
+{
+    background-color: pink;
+}

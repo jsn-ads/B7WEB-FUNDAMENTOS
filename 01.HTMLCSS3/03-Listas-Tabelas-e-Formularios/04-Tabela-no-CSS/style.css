@@ -1,0 +1,32 @@
+table{
+    width: 400px;
+}
+
+tr, td{
+    border: 1px solid black;
+}
+
+table thead{
+    background-color: bisque;
+}
+
+table tbody{
+    background-color: beige;
+}
+
+tr, td{
+    padding: 10px;
+    text-align: center;
+}
+
+tbody tr:hover{
+    background-color: gainsboro;
+}
+
+tbody td{
+    border-bottom: 1px solid gray;
+}
+
+tbody tr:nth-child(even){
+    background-color: bisque;
+}

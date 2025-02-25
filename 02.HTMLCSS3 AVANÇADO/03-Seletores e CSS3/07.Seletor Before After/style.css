@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+}
+
+span::before{
+    content: "->";
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+span::after{
+    content: "<-";
+    background-color: aqua;
+    border: 1px solid black;
+}

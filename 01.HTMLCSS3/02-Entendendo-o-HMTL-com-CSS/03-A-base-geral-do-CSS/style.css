@@ -1,0 +1,15 @@
+#titulo{
+    color: aqua;
+}
+
+.titulo{
+    font-size: 40px;
+}
+
+#titulo, .titulo{
+    font-weight: bold;
+}
+
+ul li{
+    color: red;
+}

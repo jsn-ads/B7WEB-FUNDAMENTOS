@@ -1,0 +1,29 @@
+
+/* AUMENTA E DIMINUI O TAMANHO DOS OBJETOS */
+/* div{
+    background-color: rgba(255, 0, 0, 1);
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    transform: scale(2,0.5) eixo X e Y;
+} */
+
+/* ROTACIONA A DIREÇÃO DOS ELEMENTOS */
+/* div{
+    background-color: rgba(255, 0, 0, 1);
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    transform: rotate(-90deg);
+} */
+
+/* DISTORCE OS ELEMENTOS */
+/* div{
+    background-color: rgba(255, 0, 0, 1);
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    transform: skew(-10deg,0deg) eixo X e Y
+} */

@@ -1,0 +1,13 @@
+/* 
+object-fit
+    fill: imagem preenche o espaço que foi definido com possibilidade de distorções.
+    contain: imagem preenche e se reajusta de acordo com tamanho do espaço sem distorções porem pode deixa espaços em branco.
+    cover: imagem preenche o tamanho do espaço e redimenciona o que não couber e feito um corte.
+    none : faz o mesmo que o cover porem ele não redimencionar antes de cortar 
+*/
+
+img{
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+}

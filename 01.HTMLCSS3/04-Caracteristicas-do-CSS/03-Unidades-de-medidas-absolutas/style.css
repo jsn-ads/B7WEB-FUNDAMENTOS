@@ -1,0 +1,27 @@
+.squad{
+    width: 100px;
+    height: 100px;
+    background-color: #DDD;
+    margin: 5px;
+}
+
+.squad1{
+    width: 100pt;
+    height: 100pt;
+    background-color: #DDD;
+    margin: 5px;
+}
+
+.squad2{
+    width: 1in;
+    height: 1in;
+    background-color: #DDD;
+    margin: 5px;
+}
+
+.squad3{
+    width: 5cm;
+    height: 5cm;
+    background-color: #DDD;
+    margin: 5px;
+}

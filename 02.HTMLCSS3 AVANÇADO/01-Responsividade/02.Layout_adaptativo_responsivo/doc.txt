@@ -1,0 +1,7 @@
+resolução padrao
+
+320  px   smartphone
+760  px   smartphone large
+960  px   tablet
+1200 px   res HD
+1600 px   res FHD

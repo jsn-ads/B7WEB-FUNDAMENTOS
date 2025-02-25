@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100px;
+    background-color: #000000;
+    color: #fff;
+}
+
+.header{
+    height: 100px;
+    max-width: 1140px;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 100px;
+}
+
+.logo-img{
+    width: 80px;
+    height: 80px;
+    background-color: #b28756;
+}
+
+.menu{
+    flex: 1;
+    
+    display: flex;
+    justify-content: flex-end;
+}

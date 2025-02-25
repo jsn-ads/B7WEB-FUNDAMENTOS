@@ -1,0 +1,20 @@
+.p1{
+    border: 5px solid #0000FF;
+    border-radius: 10px;
+}
+
+.p2{
+    border: 5px dotted #000000;
+}
+
+.p3{
+    border: 5px dashed #60004F;
+}
+
+.p4{
+    border: 5px double #20244E;
+}
+
+.p5{
+    border: 5px groove #FF6600;
+}

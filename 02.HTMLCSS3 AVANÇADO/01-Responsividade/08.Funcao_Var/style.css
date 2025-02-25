@@ -1,0 +1,55 @@
+:root
+{
+    --bodycolor:black;
+    --bgcolor:red;
+    --fcoot:white;
+    --fz:verdana;
+    --fs:25px;
+}
+
+body
+{
+    background-color: var(--bodycolor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.QD
+{
+    background-color: var(--bgcolor);
+    color: var(--fcoot);
+    font-size: var(--fs);
+    font-family: var(--fs);
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-bottom: -50%;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 500px)
+{
+   body
+   {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50%;
+   }
+
+   :root
+   {
+        --bodycolor:blue;
+        --fs:15px
+        --bgcolor:gray;
+        --fcoot:black;
+        --fz:arial;
+   }
+}

@@ -1,0 +1,58 @@
+table,td
+{
+    border: 2px solid black;
+    width: 50%;
+}
+
+/* configuração da pagina que afeta apenas na impressao */
+@media only print
+{
+    table, td
+    {
+        border: none;
+    }
+}
+
+/* configuração da pagina que afeta apenas no visual */
+@media only screen
+{
+    h1
+    {
+        display: none;
+    }
+}
+
+@media all
+{
+    table
+    {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+@media(min-width: 1000px)
+{
+    body
+    {
+        background-color: red;
+        color: white;
+    }
+}
+
+@media(min-width: 600px) and (max-width:1000px)
+{
+    body
+    {
+        background-color: aqua;
+        color: black;
+    }
+}
+
+@media(min-width: 0px) and (max-width:600px)
+{
+    body
+    {
+        background-color: chartreuse;
+        color: red;
+    }
+}
