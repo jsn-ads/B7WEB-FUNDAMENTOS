@@ -1,0 +1,11 @@
+/* 001 */
+
+.body-A{
+    background-color: rgb(0, 0, 0);
+}
+
+.square-A{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(246, 151, 17, 0.5);
+}
