@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
 header{
     height: 100px;
     background-color: #000000;
@@ -34,4 +39,31 @@ header{
     
     display: flex;
     justify-content: flex-end;
+}
+
+.menu ul,
+.menu li{
+    list-style: none;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu li a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border-bottom:5px solid #000000;
+}
+
+.menu li a:hover,
+.menu .active a{
+    border-bottom: 5px solid #b28756;
 }
