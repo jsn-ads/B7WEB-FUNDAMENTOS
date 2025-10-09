@@ -66,4 +66,15 @@ header{
 .menu li a:hover,
 .menu .active a{
     border-bottom: 5px solid #b28756;
+    color: #CCC;
+}
+
+/* unidade (vh) representa a altura (1vh == 1%) idenpende do tamanho e a resolução da tela. */
+/* aqui estou subitraindo tamanhdo do meu Header com meu Banner */
+.banner {
+    height: calc(100vh - 100px);
+    background-color: #333;
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    background-position: bottom;
 }
